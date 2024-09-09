@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EarthquakeListItem should match the expected HTML structure 1`] = `
+<div>
+  <div
+    class="earthquake-list-item"
+  >
+    <div>
+      Map
+    </div>
+    <div>
+      <h2>
+        2 km NE of Newport Beach, CA
+      </h2>
+      <p>
+        6/7/2024
+      </p>
+    </div>
+    <div
+      class="magnitude"
+    >
+      <span>
+        4
+      </span>
+    </div>
+  </div>
+</div>
+`;

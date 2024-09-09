@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EarthquakeListItem should match the expected HTML structure 1`] = `
+<div>
+  <div
+    class="region-selector"
+  >
+    <span
+      class="listbox-button"
+    >
+      <button
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        class="btn btn--form"
+        style="width: 100%;"
+        type="button"
+      >
+        <span
+          class="btn__cell"
+        >
+          <span
+            class="btn__floating-label"
+          >
+            Select a region
+          </span>
+          <span
+            class="btn__text"
+          >
+            -
+          </span>
+          <svg
+            aria-hidden="true"
+            class="icon icon--chevron-down-12"
+            focusable="false"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <use
+              xlink:href="#icon-chevron-down-12"
+            />
+          </svg>
+        </span>
+      </button>
+      <select
+        class="listbox-button__native"
+        hidden=""
+      >
+        <option
+          value="north-america"
+        />
+        <option
+          value="south-america"
+        />
+      </select>
+    </span>
+  </div>
+</div>
+`;

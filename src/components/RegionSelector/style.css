@@ -1,0 +1,10 @@
+.region-selector {
+  &,
+  .listbox-button {
+    width: 100%;
+  }
+
+  .listbox-button__listbox {
+    z-index: 999 !important;
+  }
+}

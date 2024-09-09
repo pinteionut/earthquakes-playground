@@ -1,0 +1,36 @@
+{
+  "type": "Feature",
+  "properties": {
+    "mag": 3.58,
+    "place": "2 km NE of Newport Beach, CA",
+    "time": 1717717944590,
+    "updated": 1717756178919,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40616303",
+    "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40616303&format=geojson",
+    "felt": 3727,
+    "cdi": 4.2,
+    "mmi": 3.878,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 617,
+    "net": "ci",
+    "code": "40616303",
+    "ids": ",ew1717717940,ci40616303,us7000mquf,",
+    "sources": ",ew,ci,us,",
+    "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+    "nst": 150,
+    "dmin": 0.04235,
+    "rms": 0.24,
+    "gap": 78,
+    "magType": "ml",
+    "type": "earthquake",
+    "title": "M 3.6 - 2 km NE of Newport Beach, CA"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-117.9098333, 33.6311667, 12.08]
+  },
+  "id": "ci40616303"
+}
