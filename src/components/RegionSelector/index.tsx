@@ -9,12 +9,14 @@ export type RegionSelectorProps = {
   regions: Continent[];
   onChange: (value: string) => void;
   value: string | null;
+  disabled: boolean | null;
 };
 
 export function RegionSelector({
   regions,
   onChange,
   value,
+  disabled,
 }: RegionSelectorProps) {
   if (regions.length === 0) {
     return null;
@@ -27,6 +29,7 @@ export function RegionSelector({
         onChange={(evt, data: any) => onChange(data.selected[0])}
         value={value || undefined}
         style={{ width: "100%" }}
+        disabled={disabled || false}
       >
         {regions.map((region) => (
           <EbayListboxButtonOption key={region.slug} value={region.slug}>
